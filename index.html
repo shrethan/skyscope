@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exploring the horizon!</title>
+    <title>sky scope!</title>
     <!-- google font icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -31,8 +31,8 @@
     <!-- home section starts -->
     <section class="home" id="home">
       <h1 class="home-text">
-        Exploring the<br />
-        <span>HORIZON</span>
+       SKY<br />
+        <span>SCOPE</span>
       </h1>
       <p id="p-home">let the journey begin!</p>
     </section>
@@ -162,15 +162,24 @@
         <div class="box">
           <h1 class="heading">about <span>us</span></h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
-            corporis minima temporibus iste unde dolor beatae, delectus
-            architecto et? Assumenda sint quas dicta itaque ipsa. Quae cum
-            reiciendis ut quo.
+            About Us
+            Welcome to Skyscope, your gateway to the wonders of the night sky!
+            
+            At Skyscope, we aim to empower space enthusiasts, educators, and curious minds by providing a seamless platform to explore and track satellites, celestial events, and more. Whether you're a seasoned stargazer or just starting to look up, Skyscope connects you to the cosmos like never before.
+            
+            Our Mission
+            To make space accessible and exciting for everyone through intuitive tools, real-time data, and immersive educational resources.
+            
+            What We Offer
+            Real-Time Satellite Tracking: Discover and follow satellites as they journey across the sky.
+            Custom Notifications: Never miss a satellite pass or a celestial event.
+            Educational Insights: Learn about satellites, space missions, and the universe.
+            Interactive Tools: Explore the sky with our user-friendly interface and mapping features.
+            Who We Are
+            Skyscope was built by a passionate team of developers, astronomers, and space enthusiasts dedicated to bridging the gap between technology and the wonders of the universe.
+
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            nemo necessitatibus eius? In, nesciunt veritatis?
-          </p>
+          
           <!-- <a href="#" class="btn">hire me</a> -->
           <!-- <a href="#" class="btn">download CV</a> -->
         </div>
@@ -183,22 +192,24 @@
       <div class="col-container">
         <div class="col">
           <h2>get in touch</h2>
-          <input type="text" placeholder="your name" />
-          <input type="email" placeholder="your email" onclick="emailCheck()" />
-          <input type="text" placeholder="your phone" />
-          <textarea
-            name=""
-            placeholder="write a message"
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-          <input type="submit" class="btn" onclick="emailCheck()">send message</a>
+          <form>
+            <input type="text" id="name" placeholder="your name" />
+            <input type="email" id="email" placeholder="your email" onclick="emailCheck()" />
+            <input type="text" id="phone"  placeholder="your phone" />
+            <textarea
+              name=""
+              placeholder="write a message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="button" onclick="emailSubmit()">Submit</button>
+          </form>
         </div>
         <div class="col">
           <h2>contact details</h2>
           <p>email</p>
-          <span>explorethehorizon@gmail.com</span>
+          <span>www.skyscope.com</span>
           <br />
           <br />
           <p>phone</p>
@@ -209,9 +220,9 @@
           <br />
           <p>address</p>
           <span
-            >BMS College of Engineering <br />
-            Basavangudi<br />
-            Bengaluru, Karnataka</span
+            >VEMANA INSTITUTE OF TECHNOLOGY <br />
+           KORMANGALA<br />
+            BENGALURU KARNATAKA</span
           >
         </div>
       </div>

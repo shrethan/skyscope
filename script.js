@@ -35,3 +35,18 @@ function emailCheck(){
       msg.style.color = "red";
   }
 }
+
+function emailSubmit(){
+  // Collect form data
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const phone = document.getElementById("phone").value;
+  const message = document.getElementById("message").value;
+
+  // Log data to the console
+  console.log('Form Submitted!');
+  console.log('Name:', name);
+  console.log('Email:', email);
+  console.log('Phone:', phone);
+  console.log('Message:', message);
+}
